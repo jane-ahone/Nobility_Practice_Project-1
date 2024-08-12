@@ -1,0 +1,21 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="16" height="16" fill="black"/>
+<g id="Cart" clip-path="url(#clip0_0_1)">
+<rect width="375" height="812" transform="translate(-319 -206)" fill="white"/>
+<g id="Product 1">
+<rect id="Rectangle 433" x="-302.5" y="-67.5" width="342" height="103" rx="4.5" fill="white" stroke="#EBF0FF"/>
+<g id="Button/Input Number">
+<path id="Rectangle 432" d="M-8 -4H19C21.7614 -4 24 -1.76142 24 1V15C24 17.7614 21.7614 20 19 20H-8V-4Z" stroke="#EBF0FF"/>
+<g id="system icon/16px/Plus">
+<path id="Vector" d="M8 3.3335V12.6668" stroke="#9098B1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M3.33301 8H12.6663" stroke="#9098B1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="375" height="812" fill="white" transform="translate(-319 -206)"/>
+</clipPath>
+</defs>
+</svg>
