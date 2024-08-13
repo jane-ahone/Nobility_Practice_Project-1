@@ -3,11 +3,24 @@ const bcrypt = require('bcryptjs')
 
 const options = { discriminatorKey: 'authType', timestamps: true };
 
+const addressSchema = new mongoose.Schema({
+  street: { type: String, required: true },
+  city: { type: String, required: true },
+  state: { type: String, required: true },
+  zipCode: { type: String, required: true },
+  country: { type: String, required: true }
+});
+
 const userSchema = new mongoose.Schema({
   email: { type: String, required: true, unique: true },
   username: { type: String, required: true },
-  createdAt: { type: Date, default: Date.now }
+  createdAt: { type: Date, default: Date.now },
+  phone: { type: String },
+  dateOfBirth: { type: Date },
+  photo: { type: String }, 
+  address: addressSchema
 }, options);
+
 
 const User = mongoose.model('User', userSchema);
 
